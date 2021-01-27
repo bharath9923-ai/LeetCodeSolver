@@ -20,6 +20,7 @@ public class SubsetProblem {
 	private void subsetsHelper(List<List<Integer>> list, List<Integer> resultList, int[] nums, int start) {
 		list.add(new ArrayList<>(resultList));
 		System.out.println("THIS IS LEET 27 JAN :");
+		System.out.println("LEET 2nd change");
 		for (int i = start; i < nums.length; i++) {
 			// add element
 			resultList.add(nums[i]);
