@@ -23,6 +23,7 @@ public class ValidParanthesis {
 				}
 			} catch (Exception e) {
 				System.out.println("THIS IS LEET 27 JAN :" + e);
+				System.out.println("LEET 2nd change");
 			}
 		}
 		if (stack.isEmpty()) {
