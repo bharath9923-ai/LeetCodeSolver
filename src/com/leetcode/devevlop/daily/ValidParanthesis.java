@@ -22,7 +22,7 @@ public class ValidParanthesis {
 					stack.push(character);
 				}
 			} catch (Exception e) {
-				System.out.println("Exceotions :" + e);
+				System.out.println("REMOVED THIS LINE, REVERT REQD :" + e);
 			}
 		}
 		if (stack.isEmpty()) {
