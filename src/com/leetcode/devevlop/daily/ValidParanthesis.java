@@ -22,7 +22,12 @@ public class ValidParanthesis {
 					stack.push(character);
 				}
 			} catch (Exception e) {
+<<<<<<< HEAD
 				System.out.println("MASTER BRANCH CODE" + e);
+=======
+				System.out.println("THIS IS LEET 27 JAN :" + e);
+				System.out.println("LEET 2nd change");
+>>>>>>> leet-27jan
 			}
 		}
 		if (stack.isEmpty()) {
