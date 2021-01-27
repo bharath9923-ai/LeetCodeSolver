@@ -19,7 +19,7 @@ public class SubsetProblem {
 
 	private void subsetsHelper(List<List<Integer>> list, List<Integer> resultList, int[] nums, int start) {
 		list.add(new ArrayList<>(resultList));
-		System.out.println("REMOVE THIS LINE FOR NOW");
+		System.out.println("REMOVED THIS LINE, REVERT REQD :");
 		for (int i = start; i < nums.length; i++) {
 			// add element
 			resultList.add(nums[i]);
