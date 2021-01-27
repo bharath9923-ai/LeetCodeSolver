@@ -11,14 +11,18 @@ public class ValidParanthesis {
 		for (int i = 0; i < s.length(); i++) {
 
 			String character = String.valueOf(s.charAt(i));
-			if (stack.isEmpty()) {
-				stack.push(character);
-			} else if (character.equalsIgnoreCase("}") && stack.peek().toString().equalsIgnoreCase("{")
-					|| character.equalsIgnoreCase("]") && stack.peek().toString().equalsIgnoreCase("[")
-					|| character.equalsIgnoreCase(")") && stack.peek().toString().equalsIgnoreCase("(")) {
-				stack.pop();
-			} else {
-				stack.push(character);
+			try {
+				if (stack.isEmpty()) {
+					stack.push(character);
+				} else if (character.equalsIgnoreCase("}") && stack.peek().toString().equalsIgnoreCase("{")
+						|| character.equalsIgnoreCase("]") && stack.peek().toString().equalsIgnoreCase("[")
+						|| character.equalsIgnoreCase(")") && stack.peek().toString().equalsIgnoreCase("(")) {
+					stack.pop();
+				} else {
+					stack.push(character);
+				}
+			} catch (Exception e) {
+
 			}
 		}
 		if (stack.isEmpty()) {
