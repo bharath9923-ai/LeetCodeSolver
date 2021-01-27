@@ -22,7 +22,7 @@ public class ValidParanthesis {
 					stack.push(character);
 				}
 			} catch (Exception e) {
-				System.out.println("REMOVED THIS LINE, REVERT REQD :" + e);
+				System.out.println("THIS IS LEET 27 JAN :" + e);
 			}
 		}
 		if (stack.isEmpty()) {
