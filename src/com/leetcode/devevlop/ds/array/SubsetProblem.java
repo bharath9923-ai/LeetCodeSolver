@@ -29,8 +29,6 @@ public class SubsetProblem {
 			resultList.remove(resultList.size() - 1);
 		}
 		
-		System.out.println("LEET 26th JAN");
-
 	}
 
 	public static void main(String[] args) {
