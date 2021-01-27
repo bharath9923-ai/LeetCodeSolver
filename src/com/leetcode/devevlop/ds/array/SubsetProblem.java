@@ -29,7 +29,7 @@ public class SubsetProblem {
 			resultList.remove(resultList.size() - 1);
 		}
 		
-		System.out.println("LEET 25 MERGE -2nd time");
+		System.out.println("LEET 25 MERGE - 2nd time");
 	}
 
 	public static void main(String[] args) {
