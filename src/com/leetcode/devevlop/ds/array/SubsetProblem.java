@@ -29,8 +29,7 @@ public class SubsetProblem {
 			resultList.remove(resultList.size() - 1);
 		}
 		
-		System.out.println("LEET 26th JAN");
-
+		System.out.println("LEET 25 MERGE");
 	}
 
 	public static void main(String[] args) {
